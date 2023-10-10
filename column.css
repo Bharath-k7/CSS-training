@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="column.css">
+    <title>columns</title>
+<style>
+    .column{
+    column-count: 4;
+    column-width: 200px;
+    column-rule: 1px solid #333;
+    column-gap: 2rem;
+}
+.column p{
+    margin-top:  0;
+}
+.column h2{
+    margin-top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 5rem;
+    break-inside: avoid;
+}
+.column .quote{
+    margin: 2rem;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #333;
+    column-span: all;
+}
+span{
+    white-space: nowrap;
+}
+</style>
+</head>
+<body>
+    <section class="column">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, voluptates maiores! Nesciunt, odit. Id deserunt officiis blanditiis similique, perferendis iste.</p>
+    <p>Quisquam tempore a exercitationem reprehenderit eius consequatur officia, sequi nihil quo, facilis accusamus iure, vitae rem dolor optio quasi odit.</p>
+    <!--<h2>Next</h2>-->
+    <p class="quote">Hhh...where are you---<span>The Dude</span></p>
+    <p>Temporibus neque quisquam enim cum asperiores debitis doloremque dolore nesciunt officiis facilis. Aliquid eaque ipsam non voluptatum accusantium ducimus enim.</p>
+    <p>Suscipit nihil sunt dicta aut tempore totam atque, doloribus illo rerum. Distinctio maiores, dolor aspernatur perferendis pariatur beatae molestias reiciendis?</p>
+</section>
+</body>
+</html>
