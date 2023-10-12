@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox1</title>
+    <link rel="stylesheet" href="flexbox1.css">
+<style>
+  .container{
+    display: flex;
+    flex-direction: column;
+
+}
+.para1{
+    background-color: aqua;
+    padding: 10px;
+    flex: 1;
+    order: 2;
+}
+.para2{
+    background-color: yellow;
+    padding: 10px;
+    flex: 1;
+    order: 3;
+}
+.para3{
+    background-color: lightgreen;
+    padding: 10px;
+    flex: 2;
+    order: 1;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+      <p class="para1">A-Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aliquam molestiae aperiam temporibus reprehenderit quas delectus rem placeat id eligendi?</p>
+      <p class="para2">B-Dolores qui, accusamus animi commodi, blanditiis deserunt explicabo id ut eveniet odio, nostrum alias. Nostrum aliquam distinctio aliquid commodi obcaecati?</p>
+      <p class="para3">C-Mollitia eveniet, architecto perspiciatis consectetur, incidunt optio rem cumque atque deleniti soluta omnis magnam maiores doloribus quibusdam sint repellendus possimus.Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+</body>
+</html>
